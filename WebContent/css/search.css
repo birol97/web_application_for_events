@@ -1,0 +1,141 @@
+body{
+  background-color: rgb(255, 255, 255);
+  margin-top: 0;
+  
+  } 
+  .part1 {
+  
+    height: 400px;
+    width: 100%;
+    
+    background-color: black;
+    }
+    
+#nav ul{ list-style-type: none;
+    height: 50px;
+    width: 97%;
+    background-color: black;
+   margin: 0;
+    }
+    
+  #nav a{
+    
+    color:rgb(248, 248, 248);
+    margin-top: 15px;
+    float: left;
+    color:yellow;
+    margin-left: 20px;
+    position: static;
+    height: 10px;
+    width: 12%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    }
+   
+    #nav a:hover{
+      font-style: bold;
+      color: blue;
+     
+    }
+   .header2{
+    
+     width: 50px;
+   }
+   .header2 p{
+     float: left;
+     margin-left: 10px;
+   } 
+   .header2 p:hover{
+
+    background-color: red;
+    font:bold;
+   }
+   .bar{
+     margin-left: 25%;
+   }
+.bar input{
+  
+  float: left;
+}
+/* each added event will be in div post*/
+.post{
+    background-color: antiquewhite;
+    margin-left: 400px;
+    border:5px solid;
+   height: 200px;
+    width: 50%;
+    margin-top: 25px;
+}
+/*attribute of images inside the div post */
+
+.post img {
+    width: 25%;
+    float: left;
+    height: 200px;
+    
+}
+/*attributes of informations related to the event*/
+.postinfo{
+    float: right;
+   width: 75%;
+}
+.postinfo h2{
+   color: black;
+    
+
+}
+
+.footer{
+ 
+  
+    height: 300px;
+    width: 100%;
+     background-color: rgb(25, 6, 6);
+   }
+   .footer p {
+     color:rgb(255, 255, 255);
+     font-family: 'Brush Script MT', cursive;
+     text-align: center;
+   }
+   .footer a {
+     float: left;
+   }
+   .fa {  
+     padding: 20px;  
+   border:3px solid;
+   border-radius: 10%;
+   border-color: yellow;
+   text-align: center;  
+   margin: 5px 2px; 
+     font-size: 30px;  
+     width: 25px;  
+     margin-left: 15%;
+    
+   }  
+   h3{
+     margin-left: 40%;
+   }
+   .fa-facebook {  
+     background: black;
+     color: white;  
+   }  
+   .fa-twitter {  
+     background: black; 
+     color: white;  
+   }  
+   
+   .fa-instagram {  
+     background: black;
+     color: white;  
+   }  
+   .fa-snapchat-ghost {  
+     background: black; 
+     color: white;  
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+   }  
+   
+   .fa:hover {  
+       opacity: 0.9;  
+   }  
+   

@@ -1,0 +1,6 @@
+-Dynamic side panel can be seen by clicking menu icon on index.html
+-2 main form is available in the website and their validation done through signup.js
+-on index.html image slide show made available by through index.js
+-all the values that are filled in the forms are captured by localstorage.
+-AFter signing up to the page.Show details button should appear.After pressing you can see all the related information about user
+-Information about web page dom tree .Button at the bottom of index.html will help.

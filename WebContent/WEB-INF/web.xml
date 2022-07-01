@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>main_app</display-name>
+  
+  
+ <servlet>
+ <servlet-name>login_form</servlet-name>
+  <servlet-class>login_form</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>login_form</servlet-name>
+   <url-pattern>/login_form</url-pattern>
+  </servlet-mapping>
+   <servlet>
+ <servlet-name>myprofile</servlet-name>
+  <servlet-class>myprofile</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>myprofile</servlet-name>
+   <url-pattern>/myprofile</url-pattern>
+  </servlet-mapping>
+    <servlet> 
+ <servlet-name>Addevent</servlet-name>
+  <servlet-class>Addevent</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>Addevent</servlet-name>
+   <url-pattern>/Addevent</url-pattern>
+  </servlet-mapping>  
+
+   <servlet>
+ <servlet-name>Login2</servlet-name>
+  <servlet-class>Login2</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>Login2</servlet-name>
+   <url-pattern>/Login2</url-pattern>
+  </servlet-mapping> 
+
+    <servlet>
+ <servlet-name>Login</servlet-name>
+  <servlet-class>Login</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>Login</servlet-name>
+   <url-pattern>/Login_Page</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+ <servlet-name>home</servlet-name>
+  <servlet-class>home</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>home</servlet-name>
+   <url-pattern>/home</url-pattern>
+  </servlet-mapping> 
+  
+   <servlet>
+ <servlet-name>eventsinfo</servlet-name>
+  <servlet-class>eventsinfo</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>eventsinfo</servlet-name>
+   <url-pattern>/eventsinfo</url-pattern>
+  </servlet-mapping> 
+   
+      <servlet>
+ <servlet-name>Addevent3</servlet-name>
+  <servlet-class>Addevent3</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>Addevent3</servlet-name>
+   <url-pattern>/Addevent3</url-pattern>
+  </servlet-mapping> 
+       <servlet>
+       
+ <servlet-name>submit_event</servlet-name>
+  <servlet-class>submit_event</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>submit_event</servlet-name>
+   <url-pattern>/submit_event</url-pattern>
+  </servlet-mapping> 
+   <servlet>
+       
+ <servlet-name>search</servlet-name>
+  <servlet-class>search</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>search</servlet-name>
+   <url-pattern>/search</url-pattern>
+  </servlet-mapping> 
+     <servlet>
+       
+ <servlet-name>Logout</servlet-name>
+  <servlet-class>Logout</servlet-class>
+ </servlet>
+ 
+  <servlet-mapping>
+   <servlet-name>Logout</servlet-name>
+   <url-pattern>/Logout</url-pattern>
+  </servlet-mapping> 
+  <context-param> 
+      <description>Location to store uploaded file</description> 
+      <param-name>file-upload</param-name> 
+      <param-value>
+        C:\Users\DEO\Desktop\ass\main_app\WebContent\event_image
+      </param-value> 
+   </context-param>
+
+  <welcome-file-list>
+  
+    <welcome-file>signup.jsp</welcome-file>
+    
+  </welcome-file-list>
+</web-app>
